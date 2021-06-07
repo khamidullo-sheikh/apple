@@ -1,0 +1,274 @@
+/*------------------*/
+/*---BASIC SETUPS---*/
+/*------------------*/
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 1250px;
+    margin: 0 auto;
+    margin-bottom: 10px;
+    background: #fff;
+}
+
+.wrapper{
+    width: 1000px;
+    margin: 0 auto;
+}
+
+p{
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.paragraph1{
+    font-size: 16px;
+    line-height: 150%;
+    padding-left: 40px;
+    border-left: 3px solid #888;
+}
+
+.paragraph2{
+    font-size: 15px;
+    line-height: 160%;
+}
+
+a{
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #333333;
+}
+
+h1,
+h3{
+    margin-bottom: 30px;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    letter-spacing: 0em;
+    text-align: left;
+    display: inline-block;
+}
+h1{
+    font-size: 50px;
+    line-height: 120%;
+    width: 100%;
+}
+
+h3{
+    font-size: 18px;
+    line-height: 150%;
+    text-transform: uppercase;
+}
+.btn{
+    width: 260px;
+    padding: 12px 0;
+    background-color: #EA625C;
+    color: #fff;
+    display: inline-block;
+    text-transform: uppercase;
+    font-size: 18px;
+    font-weight: 700;
+    margin-top: 30px;
+    border-radius: 5px;
+    transition: background-color .2s linear;
+}
+
+.btn:hover{
+    background-color: #C9514C;
+}
+
+
+/*------------------*/
+/*------NAVBAR------*/
+/*------------------*/
+
+.nav{
+    padding: 30px 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-brand{
+    width: 35px;
+    height: auto;
+}
+
+.nav-menu{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.menu{
+    list-style: none;
+}
+
+.nav-menu li{
+    display: inline-block;
+    margin: 0 15px;
+    border-bottom: 3px solid transparent;
+}
+
+.nav-menu li:not(.nav-menu li:last-child):hover{
+    border-bottom-color: #333;
+}
+
+.nav-menu li:last-child{
+    margin-right: 0;
+    border-bottom: 1px solid #666;
+}
+
+.nav-menu a:last-child{
+    color: #666;
+}
+
+.active {
+    border-bottom: 3px solid #333 !important;
+}
+
+
+/*------------------*/
+/*------BANNER------*/
+/*------------------*/
+
+.banner {
+    width: 100%;
+    margin: 42px auto 0 auto;
+    height: 544px;
+    overflow: hidden;
+    position: relative;
+    border-bottom: 2px solid #ddd;
+}
+
+.banner-text{
+    position: absolute;
+    width: 490px;
+    top: 91px;
+    left: 125px;
+}
+
+.banner-img {
+    position: absolute;
+    background-image: url(../img/intro-bg.svg);
+    background-repeat: no-repeat;
+    width: 587px;
+    height: 565px;
+    top: 0px;
+    left: 860px;
+    overflow: hidden;
+}
+
+
+/*------------------*/
+/*-----CONTENT------*/
+/*------------------*/
+
+.intro{
+    display: flex;
+    justify-content: space-between;
+    padding: 70px 0;
+}
+
+.intro-box{
+    width: 290px;
+}
+
+.more{
+    display: flex;
+    justify-content: space-between;
+    width: 40px;
+    height: 8px;
+    margin-top: 20px;
+}
+
+.learn-more{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 175px;
+    height: 26px;
+    margin-top: 20px;
+}
+
+.rec{
+    width: 8px;
+    height: 100%;
+    background-color: #ddd;
+    display: block;
+}
+
+.line{
+    width: 60px;
+    height: 3px;
+    display: block;
+    background-color: #EA625C;
+}
+
+.line-link{
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 160%;
+    text-transform: uppercase;
+    color: #EA625C;
+}
+
+
+/*------------------*/
+/*------FRAME-------*/
+/*------------------*/
+
+.frame{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 70px 0;
+}
+
+.frame-text{
+    width: 490px;
+}
+
+.frame-img{
+    background-image: url(../img/watch-in-hand.svg);
+    width: 400px;
+    height: 600px;
+}
+
+
+/*------------------*/
+/*-----FOOTER-------*/
+/*------------------*/
+
+footer{
+    background-image: url(../img/runners%201.svg);
+    height: 830px;
+    padding-top: 240px;
+}
+
+.footer-text{
+    width: 490px;
+    color: #fff;
+}
+
+.align{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.p-border{
+    border-left-color: #fff;
+}
